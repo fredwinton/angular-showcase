@@ -8,6 +8,9 @@ import { FacebookComponent } from './facebook/facebook.component';
 import { FacebookFriendComponent } from './facebook/facebook-friend/facebook-friend.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserFormComponent } from './facebook/user-form/user-form.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 export const appRoutes: Routes = [
   { path: '', component: AppComponent },
@@ -19,7 +22,10 @@ export const appRoutes: Routes = [
     AppComponent,
     FacebookComponent,
     FacebookFriendComponent,
-    UserFormComponent
+    UserFormComponent,
+    HeaderComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

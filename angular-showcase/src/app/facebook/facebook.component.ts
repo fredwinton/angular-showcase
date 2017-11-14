@@ -10,7 +10,8 @@ import { FacebookService } from './facebook.service';
 })
 
 export class FacebookComponent implements OnInit {
-  title = 'facebook component';
+  
+  
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
